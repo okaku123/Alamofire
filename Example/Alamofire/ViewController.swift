@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        print( Math2().add(x: 1 ,y:1  ))
+        
     }
 
     override func didReceiveMemoryWarning() {

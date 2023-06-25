@@ -1,8 +1,10 @@
 import Foundation
 
-class Math2 {
+public class Math2 {
     
-    func add( x : Int , y: Int ) -> Int{
+    public init() {}
+    
+    public func add( x : Int , y: Int ) -> Int{
         return x + y
     }
     
