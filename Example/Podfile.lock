@@ -1,0 +1,16 @@
+PODS:
+  - Alamofire (0.1.0)
+
+DEPENDENCIES:
+  - Alamofire (from `../`)
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 407de8bc25d196dcf12c9223c07e2e1668adfbe2
+
+PODFILE CHECKSUM: 2bc0f780093e83c906fa56a08544982a58630a60
+
+COCOAPODS: 1.12.1

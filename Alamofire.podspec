@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'Alamofire'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Alamofire.'
+  s.summary          = 'Alamofire for personal use.'
+  s.homepage         = 'https://github.com/okaku123/Alamofire'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -37,6 +38,9 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'Foundation', 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64', 'ENABLE_BITCODE' => 'NO' }
+  # s.user_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
+  s.swift_versions = '5.5'
 end
